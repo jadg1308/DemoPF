@@ -1,5 +1,5 @@
-struct Cliente{
+typedef struct{
     int id;
     char nombre[30];
-    float salario;
-};
+    float saldo;
+}cliente;
